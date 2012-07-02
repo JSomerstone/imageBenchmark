@@ -1,0 +1,12 @@
+This project originates from discussion on LinkedIN (http://lnkd.in/dhrEf9) about storing images in database versus filesystem.
+
+Not having experience with the difference in performance of the approaches, I had to try it out. 
+This "test" copies 20 small gif-images to 10 000 copies to both mysql-database and Public/Img and generates html-pages refering to either directly to file or to image.php with ID of the image.
+
+My results were : Storing images into database and getting them by ID is (only) 8.7 % faster. What are Your results?
+
+Joona Somerkivi
+@JSomerstone
+2012-06-02
+
+
